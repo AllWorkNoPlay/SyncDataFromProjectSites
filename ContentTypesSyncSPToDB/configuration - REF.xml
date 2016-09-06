@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PWASiteCollectionURL>https://server/pwa</PWASiteCollectionURL>
+  <DBConnectionString>Data Source=;Initial Catalog=;Integrated Security=True</DBConnectionString>
+  <Lists>
+    <List SPName="SharePointListWithContentType" DBTableName="DBTableName" ContentType="ContentTypeName" />
+    <List SPName="SharePointListWithoutContentType" DBTableName="DBTableName" />
+  </Lists>
+</Configuration>
